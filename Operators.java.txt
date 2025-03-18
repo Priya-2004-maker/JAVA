@@ -1,0 +1,149 @@
+package Javaday1program;
+import java.util.*;
+public class Demo2 {
+   public static void main(String[] args) {
+
+		//arithmetic operator
+
+		int m1=50;
+
+		int m2=60;
+
+		int m3=70;
+
+		int tot=m1+m2+m3;
+
+		int avg=tot/3;
+
+		System.out.println("Total marks is "+tot);
+
+		System.out.println("Average marks is "+avg);
+
+		//relational operator
+
+		int a=100;
+
+		int b=200;
+
+		System.out.println(a==b);
+
+		System.out.println(a!=b);
+
+		System.out.println(a<b);
+
+		System.out.println(a<=b);
+
+		System.out.println(a>b);
+
+		System.out.println(a<=b);
+
+		//Logical operator
+
+		boolean s=true;
+
+		boolean d=false;
+
+		System.out.println(s&&d);
+
+		//Unary operator
+
+		//post increment
+
+		int x=10;
+
+		System.out.println(x);
+
+		System.out.println(x++);
+
+		System.out.println(x);
+
+		//pre increment
+
+		int y=10;
+
+		System.out.println(y);
+
+		System.out.println(++y);
+
+		System.out.println(y);
+
+		//post decrement
+
+		int z=10;
+
+		System.out.println(z);
+
+		System.out.println(z--);
+
+		System.out.println(z);
+
+		//pre decrement
+
+		int c=10;
+
+		System.out.println(c);
+
+		System.out.println(--c);
+
+		System.out.println(c);
+
+		//Assignment operator
+
+		int a1=100;
+
+		System.out.println(a+=200);
+
+		System.out.println(a-=200);
+
+		System.out.println(a*=200);
+
+		System.out.println(a/=200);
+
+		System.out.println(a%=200);
+
+		System.out.println(a=200);
+
+		//swapping ..p without using another variable temp
+
+		int b1=10;//a
+
+		int b2=20;//b
+
+		System.out.println(b1*=2);//b1=20
+
+		System.out.println(b2-=10);//b2=10
+
+		//swapping with using assignment operator
+
+		int c1=10;//a
+
+		int c2=20;//b
+
+		c1=c1+c2;//c1=20
+
+		c2=c1+c1;//c2=10
+
+		//Ternary operator
+
+		int age=18;
+
+		 String result = (age>=18)?"Eligible to vote":"Not eligible to vote";
+
+		 System.out.println(result);
+
+		 //Bitwise operator
+
+		 int x1=10;
+
+		 int x2=20;
+
+		 System.out.println(x1|x2);
+
+		 }
+
+
+
+}
+
+
+
