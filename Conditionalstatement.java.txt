@@ -1,0 +1,120 @@
+package Javaday1program;
+import java.util.*;
+public class Demo3 {
+    public  static void main(String[] args) {
+// control statement
+//if
+
+		int a=10;
+
+		int b=20;
+
+		if(a<b) {
+
+			System.out.println("A lessthan B");
+
+		}
+
+		//if else
+
+		int a1=10;
+
+		int b1=20;
+
+		if(a1<b1) {
+
+			System.out.println("A lessthan B");
+
+		}else {
+
+			System.out.println("A is not lessthan B");
+
+		}
+
+		//nested if:
+
+		int x1=10;
+
+		int y1=20;
+
+		if(x1<y1) {
+
+			if(x1%2==0) 
+
+				System.out.println(x1+"Even number");
+
+			}
+
+		//ladder if(if else if):
+
+		int x=100;
+
+		int y=200;
+
+		int z=300;
+
+		if(x>y && x>z) {
+
+			System.out.println("X is greater");
+
+		}
+
+		else if(y>x && y>z) {
+
+			System.out.println("Y is greater");
+
+			
+
+		}
+
+		else {
+
+			System.out.println("Z is greater");
+
+		}
+
+//Switch Statement
+
+				Scanner s1=new Scanner(System.in);
+
+				int r=s1.nextInt();
+
+				int v=s1.nextInt();
+
+				char result;
+
+				System.out.println("+,-");
+
+				result=s1.next().charAt(0);
+
+				switch(result) {
+
+				case'+':
+
+					int c=r+v;
+
+					System.out.println("ADD"+c);
+
+					break;
+
+				case'-':
+
+					int d=r-v;
+
+					System.out.println("SUB"+d);
+
+					break;
+
+					default:
+
+						System.out.println("Invalid choice");
+
+					
+
+				}
+
+	}
+
+}
+
+		
