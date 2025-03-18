@@ -1,0 +1,12 @@
+package Javaday1program;
+public class Demo {
+  public static void main(String[] args) {
+    System.out.println("My BioData");
+    System.out.println("Name : Priyadharshini M");
+    System.out.println("DOB : 14/05/2004");
+     System.out.println("College : KGCAS");
+     System.out.println("Blood group : A+ve");
+     System.out.println("Email id : 2232j25@kgcas.com");
+     System.out.println("Phone Number :2345167322");
+   }
+}
