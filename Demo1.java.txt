@@ -1,0 +1,13 @@
+package Javaday1program;
+import java.util.*;
+public class Demo1 {
+   public static void main(String[] args) {
+      Scanner s1 =new Scanner(System.in);
+      System.out.println("Enter your name:");
+      String name=s1.nextLine();
+      System.out.println("My name is  " + name);
+      System.out.println("Enter your Mark:");
+      int marks=s1.nextInt();
+      System.out.println("Mark is  " + marks);
+	}
+}
